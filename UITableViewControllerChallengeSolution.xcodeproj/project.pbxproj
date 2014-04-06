@@ -14,13 +14,13 @@
 		F8D8144018F197F000996729 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8143F18F197F000996729 /* main.m */; };
 		F8D8144418F197F000996729 /* STCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8144318F197F000996729 /* STCAppDelegate.m */; };
 		F8D8144718F197F000996729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D8144518F197F000996729 /* Main.storyboard */; };
-		F8D8144A18F197F000996729 /* STCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8144918F197F000996729 /* STCViewController.m */; };
 		F8D8144C18F197F000996729 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D8144B18F197F000996729 /* Images.xcassets */; };
 		F8D8145318F197F000996729 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D8145218F197F000996729 /* XCTest.framework */; };
 		F8D8145418F197F000996729 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D8143318F197F000996729 /* Foundation.framework */; };
 		F8D8145518F197F000996729 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8D8143718F197F000996729 /* UIKit.framework */; };
 		F8D8145D18F197F000996729 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F8D8145B18F197F000996729 /* InfoPlist.strings */; };
 		F8D8145F18F197F000996729 /* UITableViewControllerChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8145E18F197F000996729 /* UITableViewControllerChallengeSolutionTests.m */; };
+		F8D8146A18F199E600996729 /* STCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8D8146918F199E600996729 /* STCTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		F8D8144218F197F000996729 /* STCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCAppDelegate.h; sourceTree = "<group>"; };
 		F8D8144318F197F000996729 /* STCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCAppDelegate.m; sourceTree = "<group>"; };
 		F8D8144618F197F000996729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F8D8144818F197F000996729 /* STCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STCViewController.h; sourceTree = "<group>"; };
-		F8D8144918F197F000996729 /* STCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STCViewController.m; sourceTree = "<group>"; };
 		F8D8144B18F197F000996729 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F8D8145118F197F000996729 /* UITableViewControllerChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITableViewControllerChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8D8145218F197F000996729 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F8D8145A18F197F000996729 /* UITableViewControllerChallengeSolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewControllerChallengeSolutionTests-Info.plist"; sourceTree = "<group>"; };
 		F8D8145C18F197F000996729 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F8D8145E18F197F000996729 /* UITableViewControllerChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewControllerChallengeSolutionTests.m; sourceTree = "<group>"; };
+		F8D8146818F199E600996729 /* STCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCTableViewController.h; sourceTree = "<group>"; };
+		F8D8146918F199E600996729 /* STCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				F8D8144218F197F000996729 /* STCAppDelegate.h */,
 				F8D8144318F197F000996729 /* STCAppDelegate.m */,
 				F8D8144518F197F000996729 /* Main.storyboard */,
-				F8D8144818F197F000996729 /* STCViewController.h */,
-				F8D8144918F197F000996729 /* STCViewController.m */,
+				F8D8146818F199E600996729 /* STCTableViewController.h */,
+				F8D8146918F199E600996729 /* STCTableViewController.m */,
 				F8D8144B18F197F000996729 /* Images.xcassets */,
 				F8D8143A18F197F000996729 /* Supporting Files */,
 			);
@@ -251,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8D8144018F197F000996729 /* main.m in Sources */,
-				F8D8144A18F197F000996729 /* STCViewController.m in Sources */,
+				F8D8146A18F199E600996729 /* STCTableViewController.m in Sources */,
 				F8D8144418F197F000996729 /* STCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
